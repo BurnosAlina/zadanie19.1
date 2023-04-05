@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Rejestracja</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Rejestracja</h1>
+<form>
+    <div>
+        <label for="username">Imię</label>
+        <div>
+            <input id="username" placeholder="Wpisz imię">
+        </div>
+        <label for="userLastname">Nazwisko</label>
+        <div>
+            <input id="userLastname" placeholder="Wpisz nazwisko">
+        </div>
+    </div>
+    <div id="gender">
+        <label>Płeć</label>
+        <div id="genderChoice">
+            <input type="radio" id="woman" name="gender">
+            <label for="woman">Kobieta</label>
+            <div>
+            <input type="radio" id="man" name="gender">
+            <label for="man">Mężczyzna</label>
+        </div>
+        </div>
+    </div>
+    <div>
+        <label for="email">Adres email</label>
+        <div>
+            <input id="email" placeholder="Wpisz adres email">
+        </div>
+        <label for="password">Hasło</label>
+        <div>
+            <input id="password" placeholder="Hasło">
+            <p id="tip">Min. 8 znaków</p>
+        </div>
+    </div>
+    <div>
+        <div id="addressLabels">
+            <label for="city">Miasto</label>
+            <label for="province">Województwo</label>
+            <label for="postcode">Kod pocztowy</label>
+        </div>
+        <div id="addressInput">
+            <input id="city">
+            <select id="province">
+                <option disabled selected>Wybierz...</option>
+                <option>Śląsk</option>
+                <option>Pomorskie</option>
+            </select>
+            <input id="postcode">
+        </div>
+    </div>
+    <div>
+        <input type="checkbox"> Akceptuję <a href="coś">regulamin</a>
+        <div><input type="checkbox"> Wyrażam zgodę na otrzymywanie informacji marketingowych</div>
+        <button type="button">Rejestruj</button>
+    </div>
+</form>
+</body>
+</html>
