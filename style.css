@@ -1,0 +1,68 @@
+
+body, html {
+margin: 5px 100px;
+}
+
+#username, #userLastname, #email {
+width: 100%;
+}
+
+#password {
+width: 100%;
+margin 0px 200px;
+}
+
+#gender {
+display: flex;
+}
+
+#genderChoice {
+margin: 0px 50px;
+}
+
+#tip {
+color: grey;
+font-size: 10px;
+margin: 0px 0px;
+}
+
+#addressInput {
+display: flex;
+width: 100%;
+}
+
+#city {
+width: 50%;
+}
+
+#province {
+width: 30%;
+}
+
+#postcode {
+width: 20%;
+}
+
+#addressLabels {
+display: flex;
+width: 100%;
+}
+
+#addressLabels label:nth-child(1) {
+width: 50%;
+}
+
+#addressLabels label:nth-child(2) {
+width: 30%;
+}
+
+#addressLabels label:nth-child(3) {
+width: 20%;
+}
+
+button {
+background-color: #037ffc;
+color: white;
+font-size: 15px;
+border-radius: 4px;
+}
